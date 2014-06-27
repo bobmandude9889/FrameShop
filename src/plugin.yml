@@ -1,0 +1,20 @@
+name: FrameShop
+version: 1.0
+main: net.bobmandude9889.FrameShop.Main
+depend: [Vault]
+
+commands:
+   fs:
+      usage: /<command> create or /<command> remove
+      description: Frameshop command
+      
+permissions: 
+   fs.create:
+      description: Gives /fs create
+      default: OP
+   fs.remove:
+      description: Gives /fs remove
+      default: OP
+   fs.use:
+      description: Allows use of FrameShops
+      default: OP
